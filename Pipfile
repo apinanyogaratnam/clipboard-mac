@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+py2app = "*"
+rumps = "*"
 
 [dev-packages]
 
