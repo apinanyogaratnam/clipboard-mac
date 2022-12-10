@@ -6,7 +6,7 @@ class Clipboard:
     def __init__(self):
         self.app = rumps.App("Clipboard", "🍅")
         self.clipboard_contents = [pyperclip.paste()]
-        self.timer = rumps.Timer(self.update_clipboard, 1)
+        self.timer = rumps.Timer(self.update_clipboard, 0.01)
         self.timer.start()
         self.app.menu = list(self.clipboard_contents)
 
