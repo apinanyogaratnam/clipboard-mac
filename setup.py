@@ -14,7 +14,7 @@ OPTIONS = {
 
 setup(
     app=APP,
-    name='Pomodoro',
+    name='Clipboard',
     data_files=DATA_FILES,
     options={'py2app': OPTIONS},
     setup_requires=['py2app'], install_requires=['rumps', 'pyperclip']
